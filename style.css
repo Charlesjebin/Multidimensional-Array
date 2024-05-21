@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+}
+.output-container {
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #f0f0f0, #e0e0e0);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+.output-container strong {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+.output-content {
+    padding: 5px;
+}
+.output-content span {
+    display: block;
+    margin-bottom: 3px;
+    color: #555;
+}
+.title {
+    color: #007bff;
+}
